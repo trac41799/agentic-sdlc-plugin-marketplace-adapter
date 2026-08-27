@@ -1,0 +1,24 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "infiniteleverage",
+  "owner": {
+    "name": "Edge8",
+    "email": "trac.nguyen@edge8.ai"
+  },
+  "metadata": {
+    "description": "Infinite Leverage 8-agent system for Claude Desktop Team",
+    "homepage": "https://github.com/talentedgeai/infiniteleverage-8-agents-template"
+  },
+  "plugins": [
+    {
+      "name": "infiniteleverage",
+      "source": "./plugin",
+      "description": "8-agent specialist team with routing hooks, version tracking, and setup skills for PM, Developer, QA, DevOps, Writer, Designer, Publisher, and Email Marketer.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Edge8",
+        "email": "trac.nguyen@edge8.ai"
+      }
+    }
+  ]
+}
